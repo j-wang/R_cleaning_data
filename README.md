@@ -9,7 +9,7 @@ Make sure you have the UCI HAR Dataset folder in your R working directory. It is
 
 run_analysis.R contains the code necessary to run the analysis that combined and subsets the UCI data.
 ```r
-source(run_analysis.R)
+source("run_analysis.R")
 ```
 As mentioned above, the script will automatically check if you have the reshape package installed, and will install it if you do not have it.
 
