@@ -41,6 +41,7 @@ Labeled factor variable identifying specific activity performed by the subject. 
 Each of these variables are the raw signals from sensors as described by UCI above. All variables are unitless, as they are normalized and bounded between [-1, 1].
 
 To interpret the variables:
+
 1. (t or f) the first letter indicates **t**ime or **f**requency.
 2. (BodyAcc, GravityAcc, BodyAccJerk, BodyGyro...) Sensor output based on the above. On a most basic level, acceleration or gyro readings, broken up into "body" and "gravity" readings (separating out what movement is from the individual the Samsung phone is attached to, vs. gravitation). Jerk, JerkMag, etc. are modifications on this that are more specialized readings that measure jerk (as a movement) and Mag (magnitude).
 3. (-mean() or -std()) mean or standard deviation reading
