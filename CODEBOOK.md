@@ -42,7 +42,7 @@ Each of these variables are the raw signals from sensors as described by UCI abo
 
 To interpret the variables:
 
-1. (t or f) the first letter indicates **t**ime or **f**requency.
+1. (t or f) the first letter indicates (T)ime or (F)requency.
 2. (BodyAcc, GravityAcc, BodyAccJerk, BodyGyro...) Sensor output based on the above. On a most basic level, acceleration or gyro readings, broken up into "body" and "gravity" readings (separating out what movement is from the individual the Samsung phone is attached to, vs. gravitation). Jerk, JerkMag, etc. are modifications on this that are more specialized readings that measure jerk (as a movement) and Mag (magnitude).
 3. (-mean() or -std()) mean or standard deviation reading
 4. (-X or -Y or -Z) X, Y, or Z axis direction (as mentioned above, these are three-axis gyros and accelerometers.
